@@ -1,0 +1,17 @@
+let numeros = [1,2,3,4,5,6,7,8,9]
+
+let total = numeros.length
+let tot_imp = 0
+let tot_par = 0
+
+let contador = 0
+
+while(contador<total){
+    if(numeros[contador] % 2 ==0){
+        tot_par++
+    }else{
+        tot_imp++
+    }
+}
+
+console.log(`Seu array possui ${total} de números, tem valores impares um total de ${tot_imp} e pares ${tot_par}.`)
